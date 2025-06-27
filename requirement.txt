@@ -1,0 +1,4 @@
+# requirements.txt
+simpy==4.1.1      # última versión estable (13-nov-2023) :contentReference[oaicite:0]{index=0}
+numpy==2.3.1      # última versión estable (21-jun-2025) :contentReference[oaicite:1]{index=1}
+pandas==2.3.0     # última versión estable (4-jun-2025)  :contentReference[oaicite:2]{index=2}
