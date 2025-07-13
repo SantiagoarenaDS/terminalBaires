@@ -64,8 +64,8 @@ def generador_buques(env, gruas, tasa_llegada_dias, rendimiento, barcos_servidos
     for i in range(1, BARCOS_A_SERVIR + 1):
         buque = Buque(i)
         env.process(operar_buque(env, buque, gruas, rendimiento, barcos_servidos, BARCOS_A_SERVIR, fin_simulacion,simulacion,grua_ts,log,sim))
-        tiempo_entre_llegadas = np.random.exponential(tasa_llegada_dias * 24)  # en horas
-
+        tiempo_entre_llegadas = np.random.exponential((tasa_llegada_dias/10) * 24)  # en horas
+        
         yield env.timeout(tiempo_entre_llegadas)
 
 
