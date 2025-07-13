@@ -1,0 +1,23 @@
+# 1) Ve a la carpeta de tu proyecto
+cd C:\Users\Santiago\Descargas\terminalBaires
+
+# 2) Crea el entorno (solo una vez)
+python -m venv .venv
+#     └────────┘ nombre que tú elijas; habitual ".venv" o "env"
+
+# 3) Actívalo
+.\.venv\Scripts\activate           # en PowerShell o CMD
+# Ahora el prompt mostrará algo así: (.venv) C:\Users\Santiago\...
+
+# 4) Instala los paquetes que necesites
+pip install streamlit simpy pandas
+
+# 5) Ejecuta tu código
+streamlit run app.py
+
+# 6) Cuando acabes, desactiva
+deactivate
+
+
+.\.venv\Scripts\activate   
+streamlit run app.py

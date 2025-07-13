@@ -1,4 +1,6 @@
-# requirements.txt
-simpy==4.1.1      # última versión estable (13-nov-2023) :contentReference[oaicite:0]{index=0}
-numpy==2.3.1      # última versión estable (21-jun-2025) :contentReference[oaicite:1]{index=1}
-pandas==2.3.0     # última versión estable (4-jun-2025)  :contentReference[oaicite:2]{index=2}
+simpy==4.1.1
+numpy==1.26.4
+pandas==2.2.2      # requiere NumPy ≤2.x y ≥1.22
+scipy==1.11.4      # última con rueda para Py 3.8‒3.9
+matplotlib==3.9.4
+streamlit==1.35.0
