@@ -204,7 +204,7 @@ def operar_buque(env, buque, gruas, rendimiento, barcos_servidos, BARCOS_A_SERVI
             "fin_servicio(ts)": env.now,
             "tiempo_espera": espera,
             "tiempo_servicio": duracion,
-            'tiempo_ocioso': tiempo_ocioso,
+            'tiempo_ocioso': tiempo_ocioso+tiempo_navegacion + tiempo_salida,
             'tiempo_total_operacion':env.now-llegada,
             "peso_total_operado": buque.peso_total,
             "peso_x_hora": round(peso_x_hora, 2),  # Está relativamente inflado
