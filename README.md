@@ -169,4 +169,5 @@ Es una base solida para evolucionar hacia optimizacion, simulacion de costos y a
 Proyecto desarrollado como trabajo de simulacion aplicada a operaciones logisticas y analitica de procesos.
 
 Si queres, puedo ayudarte a adaptar este README a un perfil mas Data Science, mas Backend o mas Industrial Engineering segun el tipo de busqueda laboral.
+![animacion_buques](https://github.com/user-attachments/assets/94d943a8-1443-4527-82db-9431a5663f99)
 
